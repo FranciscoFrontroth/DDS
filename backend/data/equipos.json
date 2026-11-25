@@ -1,0 +1,74 @@
+[
+  {
+    "id": "eq-001",
+    "codigoInventario": "INV-2026-001",
+    "nombre": "Notebook Dell 14",
+    "categoria": "notebook",
+    "estado": "prestado",
+    "ubicacion": "Laboratorio A5",
+    "requiereAutorizacion": false
+  },
+  {
+    "id": "eq-002",
+    "codigoInventario": "INV-2026-002",
+    "nombre": "Notebook HP ProBook",
+    "categoria": "notebook",
+    "estado": "disponible",
+    "ubicacion": "Laboratorio A5",
+    "requiereAutorizacion": false
+  },
+  {
+    "id": "eq-003",
+    "codigoInventario": "INV-2026-003",
+    "nombre": "Proyector Epson X41",
+    "categoria": "proyector",
+    "estado": "disponible",
+    "ubicacion": "Sala de Reuniones",
+    "requiereAutorizacion": true
+  },
+  {
+    "id": "eq-004",
+    "codigoInventario": "INV-2026-004",
+    "nombre": "Cámara Sony Alpha 7",
+    "categoria": "cámara",
+    "estado": "disponible",
+    "ubicacion": "Audiovisuales",
+    "requiereAutorizacion": true
+  },
+  {
+    "id": "eq-005",
+    "codigoInventario": "INV-2026-005",
+    "nombre": "Kit de Red Cisco",
+    "categoria": "kit de red",
+    "estado": "disponible",
+    "ubicacion": "Laboratorio de Redes",
+    "requiereAutorizacion": true
+  },
+  {
+    "id": "eq-006",
+    "codigoInventario": "INV-2026-006",
+    "nombre": "Notebook Lenovo ThinkPad",
+    "categoria": "notebook",
+    "estado": "prestado",
+    "ubicacion": "Laboratorio B1",
+    "requiereAutorizacion": false
+  },
+  {
+    "id": "eq-007",
+    "codigoInventario": "INV-2026-007",
+    "nombre": "Proyector BenQ",
+    "categoria": "proyector",
+    "estado": "mantenimiento",
+    "ubicacion": "Taller Soporte",
+    "requiereAutorizacion": false
+  },
+  {
+    "id": "eq-008",
+    "codigoInventario": "INV-2026-008",
+    "nombre": "Cámara Canon T7",
+    "categoria": "cámara",
+    "estado": "baja",
+    "ubicacion": "Depósito",
+    "requiereAutorizacion": false
+  }
+]

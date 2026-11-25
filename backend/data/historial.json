@@ -1,0 +1,15 @@
+[
+  {
+    "id": "hist-1781307690628",
+    "solicitudId": "sol-1001",
+    "usuarioId": "usr-admin",
+    "accion": "cancelacion",
+    "fechaHora": "2026-06-12T23:41:30.628Z",
+    "valorAnterior": {
+      "estado": "aprobada"
+    },
+    "valorNuevo": {
+      "estado": "cancelada"
+    }
+  }
+]

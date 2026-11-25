@@ -1,0 +1,103 @@
+[
+  {
+    "id": "hist-1781358252171",
+    "solicitudId": "sol-1781358252171",
+    "usuarioId": "usr-001",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:44:12.171Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781358260694",
+    "solicitudId": "sol-1781358260694",
+    "usuarioId": "usr-001",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:44:20.694Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781358298281",
+    "solicitudId": "sol-1781358298281",
+    "usuarioId": "usr-002",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:44:58.281Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781358322963",
+    "solicitudId": "sol-1781358322963",
+    "usuarioId": "usr-002",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:45:22.963Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781358369450",
+    "solicitudId": "sol-1781358369449",
+    "usuarioId": "usr-002",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:46:09.450Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781358450469",
+    "solicitudId": "sol-1781358369449",
+    "usuarioId": "usr-002",
+    "accion": "cancelacion",
+    "fechaHora": "2026-06-13T13:47:30.469Z",
+    "valorAnterior": {
+      "estado": "pendiente"
+    },
+    "valorNuevo": {
+      "estado": "cancelada"
+    }
+  },
+  {
+    "id": "hist-1781358619717",
+    "solicitudId": "sol-1781358619717",
+    "usuarioId": "usr-003",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T13:50:19.717Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781388242209",
+    "solicitudId": "sol-1781388242207",
+    "usuarioId": "usr-001",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T22:04:02.209Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  },
+  {
+    "id": "hist-1781388627588",
+    "solicitudId": "sol-1781388627584",
+    "usuarioId": "usr-001",
+    "accion": "creacion",
+    "fechaHora": "2026-06-13T22:10:27.588Z",
+    "valorAnterior": null,
+    "valorNuevo": {
+      "estado": "pendiente"
+    }
+  }
+]

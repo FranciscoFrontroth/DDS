@@ -1,0 +1,202 @@
+[
+  {
+    "id": "sol-1001",
+    "equipoId": "eq-001",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-11",
+    "fechaDevolucion": "2026-06-21",
+    "motivo": "Práctica académica de laboratorio nº 1",
+    "estado": "cancelada",
+    "autorizadoPor": "usr-admin"
+  },
+  {
+    "id": "sol-1002",
+    "equipoId": "eq-001",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-12",
+    "fechaDevolucion": "2026-06-22",
+    "motivo": "Práctica académica de laboratorio nº 2",
+    "estado": "rechazada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1003",
+    "equipoId": "eq-001",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-13",
+    "fechaDevolucion": "2026-06-23",
+    "motivo": "Práctica académica de laboratorio nº 3",
+    "estado": "cancelada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1004",
+    "equipoId": "eq-001",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-14",
+    "fechaDevolucion": "2026-06-24",
+    "motivo": "Práctica académica de laboratorio nº 4",
+    "estado": "devuelta",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1005",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-15",
+    "fechaDevolucion": "2026-06-25",
+    "motivo": "Práctica académica de laboratorio nº 5",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1006",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-16",
+    "fechaDevolucion": "2026-06-26",
+    "motivo": "Práctica académica de laboratorio nº 6",
+    "estado": "aprobada",
+    "autorizadoPor": "usr-admin"
+  },
+  {
+    "id": "sol-1007",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-17",
+    "fechaDevolucion": "2026-06-27",
+    "motivo": "Práctica académica de laboratorio nº 7",
+    "estado": "rechazada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1008",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-18",
+    "fechaDevolucion": "2026-06-28",
+    "motivo": "Práctica académica de laboratorio nº 8",
+    "estado": "cancelada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1009",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-19",
+    "fechaDevolucion": "2026-06-29",
+    "motivo": "Práctica académica de laboratorio nº 9",
+    "estado": "devuelta",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-10010",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-110",
+    "fechaDevolucion": "2026-06-210",
+    "motivo": "Práctica académica de laboratorio nº 10",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-10011",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-111",
+    "fechaDevolucion": "2026-06-211",
+    "motivo": "Práctica académica de laboratorio nº 11",
+    "estado": "aprobada",
+    "autorizadoPor": "usr-admin"
+  },
+  {
+    "id": "sol-10012",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-06-112",
+    "fechaDevolucion": "2026-06-212",
+    "motivo": "Práctica académica de laboratorio nº 12",
+    "estado": "rechazada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358252171",
+    "equipoId": "eq-004",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-07-01",
+    "fechaDevolucion": "2026-07-05",
+    "motivo": "Sesión fotográfica para proyecto final",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358260694",
+    "equipoId": "eq-005",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-07-10",
+    "fechaDevolucion": "2026-07-15",
+    "motivo": "Laboratorio de redes - Configuración switches",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358298281",
+    "equipoId": "eq-004",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-13",
+    "fechaDevolucion": "2026-06-26",
+    "motivo": "Fiesta",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358322963",
+    "equipoId": "eq-005",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2026-06-13",
+    "fechaDevolucion": "2026-06-26",
+    "motivo": "Evento",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358369449",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-002",
+    "fechaRetiro": "2024-06-05",
+    "fechaDevolucion": "2024-07-11",
+    "motivo": "Exposicion",
+    "estado": "cancelada",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781358619717",
+    "equipoId": "eq-003",
+    "usuarioId": "usr-003",
+    "fechaRetiro": "2026-06-13",
+    "fechaDevolucion": "2026-06-20",
+    "motivo": "Exposicion",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781388242207",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-07-10",
+    "fechaDevolucion": "2026-07-15",
+    "motivo": "Práctica de laboratorio DDS",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  },
+  {
+    "id": "sol-1781388627584",
+    "equipoId": "eq-002",
+    "usuarioId": "usr-001",
+    "fechaRetiro": "2026-07-10",
+    "fechaDevolucion": "2026-07-15",
+    "motivo": "Práctica de laboratorio DDS",
+    "estado": "pendiente",
+    "autorizadoPor": null
+  }
+]

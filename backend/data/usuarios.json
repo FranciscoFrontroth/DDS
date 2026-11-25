@@ -1,0 +1,42 @@
+[
+  {
+    "id": "usr-001",
+    "nombre": "Roberto Carlos",
+    "email": "roberto@dds.com",
+    "passwordHash": "$2b$10$zempXikCukttn520y9VHlufXNF2XXUlU5S.G0HfwkYKxGOnNLGsQS",
+    "rol": "usuario",
+    "activo": true
+  },
+  {
+    "id": "usr-002",
+    "nombre": "Carla Ruiz",
+    "email": "carla@dds.com",
+    "passwordHash": "$2b$10$zempXikCukttn520y9VHlufXNF2XXUlU5S.G0HfwkYKxGOnNLGsQS",
+    "rol": "usuario",
+    "activo": true
+  },
+  {
+    "id": "usr-003",
+    "nombre": "Tomás López",
+    "email": "tomas@dds.com",
+    "passwordHash": "$2b$10$zempXikCukttn520y9VHlufXNF2XXUlU5S.G0HfwkYKxGOnNLGsQS",
+    "rol": "usuario",
+    "activo": true
+  },
+  {
+    "id": "usr-admin",
+    "nombre": "Admin General",
+    "email": "admin@dds.com",
+    "passwordHash": "$2b$10$zempXikCukttn520y9VHlufhXs0qcBAJ5wKc6c9iX864fit/ohNTO",
+    "rol": "admin",
+    "activo": true
+  },
+  {
+    "id": "usr-enc",
+    "nombre": "Encargado Lab",
+    "email": "encargado@dds.com",
+    "passwordHash": "$2b$10$zempXikCukttn520y9VHluqoYwAw11YhxqViSGmkfw4oEagLfpBj6",
+    "rol": "encargado",
+    "activo": true
+  }
+]

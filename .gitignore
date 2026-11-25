@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+*/node_modules/
+
+# Package lock
+package-lock.json
+*/package-lock.json
+
+# Variables de entorno
+.env
+.env.local
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*

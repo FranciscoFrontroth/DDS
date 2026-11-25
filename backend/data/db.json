@@ -1,0 +1,481 @@
+{
+  "usuarios": [
+    {
+      "id": "usr-001",
+      "nombre": "Carla Ruiz",
+      "email": "carla@dds.com",
+      "passwordHash": "$2b$10$hashedpassword1",
+      "rol": "usuario",
+      "activo": true
+    },
+    {
+      "id": "usr-002",
+      "nombre": "Tomás López",
+      "email": "tomas@dds.com",
+      "passwordHash": "$2b$10$hashedpassword2",
+      "rol": "usuario",
+      "activo": true
+    },
+    {
+      "id": "usr-admin",
+      "nombre": "Admin Sistema",
+      "email": "admin@dds.com",
+      "passwordHash": "$2b$10$hashedpassword3",
+      "rol": "admin",
+      "activo": true
+    },
+    {
+      "id": "usr-enc",
+      "nombre": "Encargado Lab",
+      "email": "encargado@dds.com",
+      "passwordHash": "$2b$10$hashedpassword4",
+      "rol": "encargado",
+      "activo": true
+    },
+    {
+      "id": "usr-1781355579848",
+      "nombre": "Juan Perez",
+      "email": "juan@dds.com",
+      "passwordHash": "$2b$10$FHoyrC9xXQY5vvMdDEdI7OteVq9BN2rym5Ek4gBiV/To99OIbjWCy",
+      "rol": "usuario",
+      "activo": true
+    }
+  ],
+  "equipos": [
+    {
+      "id": "eq-001",
+      "codigoInventario": "INV-2026-001",
+      "nombre": "Notebook Dell 14",
+      "categoria": "notebook",
+      "estado": "disponible",
+      "ubicacion": "Laboratorio A5",
+      "requiereAutorizacion": false
+    },
+    {
+      "id": "eq-002",
+      "codigoInventario": "INV-2026-002",
+      "nombre": "Notebook HP 15",
+      "categoria": "notebook",
+      "estado": "disponible",
+      "ubicacion": "Laboratorio A5",
+      "requiereAutorizacion": false
+    },
+    {
+      "id": "eq-003",
+      "codigoInventario": "INV-2026-003",
+      "nombre": "Proyector Epson X41",
+      "categoria": "proyector",
+      "estado": "disponible",
+      "ubicacion": "Aula 201",
+      "requiereAutorizacion": true
+    },
+    {
+      "id": "eq-004",
+      "codigoInventario": "INV-2026-004",
+      "nombre": "Cámara Canon EOS",
+      "categoria": "cámara",
+      "estado": "prestado",
+      "ubicacion": "Depósito Central",
+      "requiereAutorizacion": true
+    },
+    {
+      "id": "eq-005",
+      "codigoInventario": "INV-2026-005",
+      "nombre": "Kit de Red Cisco",
+      "categoria": "kit de red",
+      "estado": "disponible",
+      "ubicacion": "Laboratorio B2",
+      "requiereAutorizacion": false
+    },
+    {
+      "id": "eq-006",
+      "codigoInventario": "INV-2026-006",
+      "nombre": "Proyector BenQ MH550",
+      "categoria": "proyector",
+      "estado": "disponible",
+      "ubicacion": "Aula 305",
+      "requiereAutorizacion": false
+    },
+    {
+      "id": "eq-007",
+      "codigoInventario": "INV-2026-007",
+      "nombre": "Notebook Lenovo ThinkPad",
+      "categoria": "notebook",
+      "estado": "mantenimiento",
+      "ubicacion": "Taller",
+      "requiereAutorizacion": false
+    },
+    {
+      "id": "eq-008",
+      "codigoInventario": "INV-2026-008",
+      "nombre": "Switch Cisco 24p",
+      "categoria": "kit de red",
+      "estado": "disponible",
+      "ubicacion": "Laboratorio B2",
+      "requiereAutorizacion": true
+    }
+  ],
+  "solicitudes": [
+    {
+      "id": "sol-1001",
+      "equipoId": "eq-001",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-06-10",
+      "fechaDevolucion": "2026-06-12",
+      "motivo": "Práctica de laboratorio",
+      "estado": "cancelada",
+      "autorizadoPor": "usr-admin"
+    },
+    {
+      "id": "sol-1002",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-14",
+      "fechaDevolucion": "2026-06-16",
+      "motivo": "Trabajo práctico DDS",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1003",
+      "equipoId": "eq-003",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-06-15",
+      "fechaDevolucion": "2026-06-15",
+      "motivo": "Presentación parcial",
+      "estado": "rechazada",
+      "autorizadoPor": "usr-enc"
+    },
+    {
+      "id": "sol-1004",
+      "equipoId": "eq-004",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-08",
+      "fechaDevolucion": "2026-06-11",
+      "motivo": "Proyecto fotográfico",
+      "estado": "devuelta",
+      "autorizadoPor": "usr-admin"
+    },
+    {
+      "id": "sol-1005",
+      "equipoId": "eq-005",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-06-18",
+      "fechaDevolucion": "2026-06-20",
+      "motivo": "Clase de redes",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1006",
+      "equipoId": "eq-006",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-20",
+      "fechaDevolucion": "2026-06-22",
+      "motivo": "Exposición proyecto",
+      "estado": "cancelada",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1007",
+      "equipoId": "eq-001",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-25",
+      "fechaDevolucion": "2026-06-28",
+      "motivo": "Desarrollo web",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1008",
+      "equipoId": "eq-008",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-06-05",
+      "fechaDevolucion": "2026-06-07",
+      "motivo": "Práctica switch",
+      "estado": "aprobada",
+      "autorizadoPor": "usr-enc"
+    },
+    {
+      "id": "sol-1009",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-05-28",
+      "fechaDevolucion": "2026-05-30",
+      "motivo": "Examen final",
+      "estado": "devuelta",
+      "autorizadoPor": "usr-admin"
+    },
+    {
+      "id": "sol-1010",
+      "equipoId": "eq-003",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-07-01",
+      "fechaDevolucion": "2026-07-03",
+      "motivo": "Evento departamental",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1011",
+      "equipoId": "eq-005",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-05-20",
+      "fechaDevolucion": "2026-05-22",
+      "motivo": "Redes II",
+      "estado": "aprobada",
+      "autorizadoPor": "usr-enc"
+    },
+    {
+      "id": "sol-1012",
+      "equipoId": "eq-006",
+      "usuarioId": "usr-001",
+      "fechaRetiro": "2026-06-30",
+      "fechaDevolucion": "2026-07-02",
+      "motivo": "Tesis presentación",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781306809569",
+      "equipoId": "eq-003",
+      "usuarioId": "usr-admin",
+      "fechaRetiro": "2026-06-13",
+      "fechaDevolucion": "2026-06-20",
+      "motivo": "asdasdasd",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781307302749",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-1781307251916",
+      "fechaRetiro": "2026-06-06",
+      "fechaDevolucion": "2026-06-22",
+      "motivo": "asdasddsada",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781355697064",
+      "equipoId": "eq-003",
+      "usuarioId": "usr-1781355579848",
+      "fechaRetiro": "2026-09-12",
+      "fechaDevolucion": "2026-09-20",
+      "motivo": "sdgsabf",
+      "estado": "cancelada",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357088886",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2025-04-13",
+      "fechaDevolucion": "2025-04-19",
+      "motivo": "hibjm",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357168751",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2024-03-12",
+      "fechaDevolucion": "2024-04-18",
+      "motivo": "Estudio",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357252180",
+      "equipoId": "eq-005",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-12",
+      "fechaDevolucion": "2026-07-03",
+      "motivo": "Estudio",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357320615",
+      "equipoId": "eq-002",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-06-16",
+      "fechaDevolucion": "2026-07-12",
+      "motivo": "Estudio",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357626385",
+      "equipoId": "eq-003",
+      "usuarioId": "usr-003",
+      "fechaRetiro": "2026-06-13",
+      "fechaDevolucion": "2026-06-26",
+      "motivo": "Estudio",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    },
+    {
+      "id": "sol-1781357836656",
+      "equipoId": "eq-005",
+      "usuarioId": "usr-002",
+      "fechaRetiro": "2026-07-13",
+      "fechaDevolucion": "2026-07-23",
+      "motivo": "Cumpleaños",
+      "estado": "pendiente",
+      "autorizadoPor": null
+    }
+  ],
+  "historial_solicitudes": [
+    {
+      "id": "hist-001",
+      "solicitudId": "sol-1001",
+      "usuarioId": "usr-001",
+      "accion": "creacion",
+      "fechaHora": "2026-06-09T10:00:00",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-002",
+      "solicitudId": "sol-1001",
+      "usuarioId": "usr-admin",
+      "accion": "aprobacion",
+      "fechaHora": "2026-06-09T11:00:00",
+      "valorAnterior": {
+        "estado": "pendiente"
+      },
+      "valorNuevo": {
+        "estado": "aprobada"
+      }
+    },
+    {
+      "id": "hist-1781306809570",
+      "solicitudId": "sol-1781306809569",
+      "usuarioId": "usr-admin",
+      "accion": "creacion",
+      "fechaHora": "2026-06-12T23:26:49.570Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781307302750",
+      "solicitudId": "sol-1781307302749",
+      "usuarioId": "usr-1781307251916",
+      "accion": "creacion",
+      "fechaHora": "2026-06-12T23:35:02.750Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781355697066",
+      "solicitudId": "sol-1781355697064",
+      "usuarioId": "usr-1781355579848",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:01:37.066Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781355724648",
+      "solicitudId": "sol-1781355697064",
+      "usuarioId": "usr-1781355579848",
+      "accion": "cancelacion",
+      "fechaHora": "2026-06-13T13:02:04.648Z",
+      "valorAnterior": {
+        "estado": "pendiente"
+      },
+      "valorNuevo": {
+        "estado": "cancelada"
+      }
+    },
+    {
+      "id": "hist-1781356938816",
+      "solicitudId": "sol-1001",
+      "usuarioId": "usr-admin",
+      "accion": "cancelacion",
+      "fechaHora": "2026-06-13T13:22:18.816Z",
+      "valorAnterior": {
+        "estado": "aprobada"
+      },
+      "valorNuevo": {
+        "estado": "cancelada"
+      }
+    },
+    {
+      "id": "hist-1781357088887",
+      "solicitudId": "sol-1781357088886",
+      "usuarioId": "usr-002",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:24:48.887Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781357168752",
+      "solicitudId": "sol-1781357168751",
+      "usuarioId": "usr-002",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:26:08.752Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781357252181",
+      "solicitudId": "sol-1781357252180",
+      "usuarioId": "usr-002",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:27:32.181Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781357320616",
+      "solicitudId": "sol-1781357320615",
+      "usuarioId": "usr-002",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:28:40.616Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781357626386",
+      "solicitudId": "sol-1781357626385",
+      "usuarioId": "usr-003",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:33:46.386Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    },
+    {
+      "id": "hist-1781357836658",
+      "solicitudId": "sol-1781357836656",
+      "usuarioId": "usr-002",
+      "accion": "creacion",
+      "fechaHora": "2026-06-13T13:37:16.658Z",
+      "valorAnterior": null,
+      "valorNuevo": {
+        "estado": "pendiente"
+      }
+    }
+  ]
+}
